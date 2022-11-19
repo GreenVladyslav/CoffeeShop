@@ -1,0 +1,42 @@
+@import '../../style/variables.scss';
+
+.aboutCoffe {
+    padding: 70px 0 30px 0;
+    width: 880px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 392px 418px;
+    gap: 75px;
+    &__item {
+        text-align: start;
+        &:last-child {
+            padding-top: 30px;
+        }
+        &-subtitle {
+            font-size: 24px;
+            font-weight: 400;
+            color: $black;
+            text-align: center;
+        }
+        &-descr {
+            margin-top: 26px;
+            font-size: 14px;
+            font-weight: 400;
+            color: $black;
+            span {
+                font-weight: 700;
+            }
+            p {
+                margin-top: 16px;
+            }
+        }
+        &-price {
+            margin-top: 30px;
+            font-weight: 700;
+            span {
+                font-weight: 400;
+                font-size: 24px;
+            }
+        }
+    }
+}

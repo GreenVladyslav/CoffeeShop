@@ -1,0 +1,50 @@
+@import '../../style/variables.scss';
+
+.searchFilter {
+    width: 760px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    &__subtitle {
+        color: $black;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 19px;
+    }
+    &__input {
+        width: 180px;
+        height: 30px;
+        background-color: transparent;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+    &__btn {
+        width: 75px;
+        height: 30px;
+        margin-left: 5px;
+        background-color: transparent;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        color: $black;
+        font-size: 12px;
+        font-weight: 400;
+        transition: box-shadow 0.3s ease;
+        &:hover {
+            box-shadow: 6px 6px 14px rgba(91, 2, 2, 9);
+            transition: box-shadow 0.3s ease;
+        }
+    }
+}
+
+.searchFilter__btn-active {
+    box-shadow: 6px 6px 14px rgba(91, 2, 2, 9);
+}

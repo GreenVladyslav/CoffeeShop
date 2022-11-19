@@ -1,0 +1,32 @@
+@import '../../style/variables.scss';
+
+.nav {
+    width: 355px;
+    margin: 0 auto;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &__link {
+        color: $black;
+        font-size: 12px;
+        font-weight: 400;
+        &:hover {
+            color: rgb(81, 36, 4);
+        }
+    }
+    &__img {
+        position: absolute;
+        top: -20px;
+        left: -5px;
+    }
+}
+
+.nav-white {
+    position: absolute;
+    left: 150px;
+    top: 52px;
+    &_link {
+        color: $white;
+    }
+}

@@ -1,0 +1,10 @@
+@import '../../style/variables.scss';
+
+.cards {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto 44px auto;
+    gap: 60px;
+}

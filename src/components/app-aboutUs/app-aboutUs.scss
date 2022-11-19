@@ -1,0 +1,21 @@
+@import '../../style/variables.scss';
+
+.aboutUs {
+    min-height: 520px;
+    padding: 80px 0 100px 0;
+    background-color: $white;
+    &__subtitle {
+        color: $black;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__descr {
+        color: $black;
+        font-size: 14px;
+        font-weight: 400;
+        width: 589px;
+        margin: 40px auto 0 auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+@import '../../style/variables.scss';
+
+
+.divider-long {
+    width: 240px;
+    height: 1px;
+    text-align: center;
+    background-color: $black;
+    margin: 0 auto 60px auto;
+}

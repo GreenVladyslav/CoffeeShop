@@ -1,0 +1,55 @@
+@import '../../style/variables.scss';
+
+.best {
+    background: url('../../resources/bg/ourBest-bg.jpg') center center/cover no-repeat;
+    min-height: 495px;
+    padding: 80px 0 110px 0;
+    &__subtitle {
+        color: $black;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+        margin: 39px auto 0 auto;
+    }
+    &__item {
+        width: 220px;
+        height: 240px;
+        background-color: rgba(255, 255, 255, 0.65);
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 0.3s ease;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+            transition: box-shadow 0.3s ease;
+        }
+        &-img {
+            display: block;
+            width: 150px;
+            height: 130px;
+        }
+        &-descr {
+            color: $black;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 14px;
+        }
+        &-price {
+            color: $black;
+            font-size: 14px;
+            font-weight: 700; 
+            margin-top: 10px;
+            align-self: flex-end;
+            padding-right: 22px;
+        }
+    }
+}
